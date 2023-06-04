@@ -4,9 +4,512 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebPortfolio</title>
+    <style>
+
+    li a {
+        text-decoration: none; 
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 80px;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    li {
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        list-style: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        text-align: center;
+        position: fixed;
+        text-decoration: none;
+        width: 1440px;
+        z-index: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F602945C;
+    }
+    html {
+        background-color:#F5F5F5;
+        scroll-behavior: smooth;
+    }
+
+
+        @import
+   url("https://fonts.googleapis.com/css?family=Inika:400,700");
+   
+    .desktop-1 .page {
+    position: absolute;
+    width: 1440px;
+   }
+   .page-1 {
+    background-color: broken whitesmoke;
+    height: 950px;
+    width: 1440px;
+   }
+
+   .rectangle-5 {
+    height: 350px;
+    left: 104px;
+    position: absolute;
+    top:200px;
+    width: 300px;
+   }
+    .foto-profil {
+        height: 450px;
+        left:50px;
+        object-fit: cover;
+        position: absolute;
+        top: 150px;
+        width: 500px;
+    }
+   .hello {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: 50px;
+    left:450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    width: 826px;
+   }
+   .innovative {
+    color: #0000008f;
+    font-family: var(--font-family-inika);
+    font-size: 30px;
+    font-weight: 400;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 470px;
+    width: 622px;
+   }
+   
+
+   .page-2 {
+    background-color: #F602945C;
+    height: 950px;
+    width: 1440px;
+   }
+   .profile {
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1000px;
+    color: white;
+    font-size: 50px;
+   }
+    .Glory {
+    left: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1080px;
+    width: 843px;
+    color: white;
+    font-size:35px ;
+}
+
+.Education {
+    left: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1480px;
+    width: 843px;
+    color: white;
+    font-size: 35px;
+}
+.cake-4 {
+    position: absolute;
+    width: 210px;
+    height: 230px;
+    left: 800px;
+    top: 1080px;
+}
+.cake-3 {
+    position: absolute;
+    width: 210px;
+    height: 230px;
+    left: 1050px;
+    top: 1080px;
+}
+.cake-2 {
+    position: absolute;
+    width: 210px;
+    height: 230px;
+    left: 800px;
+    top: 1400px;
+}
+.cake-1 {
+    position: absolute;
+    width: 210px;
+    height: 230px;
+    left: 1050px;
+    top: 1400px;
+}
+
+.page-3 {
+    background-color: lightskyblue;
+    height: 950px;
+    width: 1440px;
+   }
+.skills {
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1960px;
+    color: white;
+    font-size: 50px;
+   }
+
+   .cake-decoration-image {
+    position: absolute;
+    width: 421px;
+    height: 319px;
+    left: 179px;
+    top: 2100px;
+   }
+
+   .page-3 h1 {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 239px;
+    top: 2000px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: white;
+   }
+
+   .creativity-image {
+    position: absolute;
+    width: 421px;
+    height: 319px;
+    left: 779px;
+    top: 2100px;
+   }
+
+   .page-3 h2 {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 900px;
+    top: 2000px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: white;
+   }
+
+
+   .attention-to-detail-image {
+    position: absolute;
+    width: 421px;
+    height: 319px;
+    left: 779px;
+    top: 2500px;
+   }
+
+   .page-3 h4 {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 840px;
+    top: 2390px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: white;
+   }
+
+   .unique-design-image {
+    position: absolute;
+    width: 421px;
+    height: 319px;
+    left: 179px;
+    top: 2500px;
+   }
+
+   .page-3 h3 {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 239px;
+    top: 2400px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: white;
+   }
+
+   .page-4 {
+    background-color: #F602945C;
+    height: 950px;
+    width: 1440px;
+   }
+   .projects {
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2920px;
+    color: white;
+    font-size: 50px;
+   }
+
+   .wedding-cake-image {
+    height: 421px;
+    left: 105px;
+    object-fit: cover;
+    position: absolute;
+    top : 3100px;
+    width: 358px;
+   }
+
+.page-4 h1 {
+    position: absolute;
+    width: 377px;
+    height: 236px;
+    left: 51px;
+    top: 3550px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bday-cake-image {
+    height: 421px;
+    left: 526px;
+    object-fit: cover;
+    position: absolute;
+    top : 3100px;
+    width: 358px;
+   }
+.page-4 h2 {
+    position: absolute;
+    width: 377px;
+    height: 236px;
+    left: 500px;
+    top: 3550px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.replica-cake-image {
+    height: 421px;
+    left: 947px;
+    object-fit: cover;
+    position: absolute;
+    top : 3100px;
+    width: 358px;
+   }
+.page-4 h3 {
+    position: absolute;
+    width: 377px;
+    height: 236px;
+    left: 949px;
+    top: 3540px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page-5 {
+    background-color:lightskyblue;
+    height: 950px;
+    width: 1440px;
+   }
+
+.contacts {
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3880px;
+    color: white;
+    font-size: 50px;
+   }
+
+.email {
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4200px;
+    font-size: 50px;
+    color: white;
+}
+
+.instagram {
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4400px;
+    font-size: 50px;
+    color: white;
+}
+
+.phone {
+    left: 600px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4200px;
+    font-size: 50px;
+    color: white;
+}
+
+.website {
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4400px;
+    font-size: 50px;
+    color: white;
+}
+
+.insta-image {
+    height: 520px;
+    left: 1100px;
+    object-fit: cover;
+    position: absolute;
+    top: 4090px;
+    width: 300px;
+}
+
+.page-5 h1{
+    left: 1230px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4600px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+    </style>
 </head>
 <body>
-    Hellow~~ 
+    <nav> 
+        <ul>
+        <li><a href="#p1">HOME</a></li>
+        <li><a href="#p2">PROFILE</a></li>
+        <li><a href="#p3">SKILLS</a></li>
+        <li><a href="#p4">PROJECTS</a></li>
+        <li><a href="#p5">CONTACTS</a></li>
+    </ul>
+    </nav>
+        
+                <div id=p1 class="page-1 page">
+                    <img class="rectangle-5" src="Rectangle 5.png"alt "Rectangle5/">
+                    <img class="foto-profil" src="FotoProfil.png"alt "FotoProfil"/>
+                    <p class="hello">HELLO!
+                    <br /><strong>I'M GLORY GEORGIA GERALDINE</strong>, <br
+                    />AS A BAKER.</p>
+                    </p>
+                    <p class="innovative">innovative baker with 2 years of experience in cake decoration.</p>
+         </div>
+
+
+                <div id=p2 class="page-2 page">
+                <div class="profile"><strong>PROFILE</strong></div>
+                <p class="Glory">
+                I'm Glory Georgia Geraldine, 20 years old. <br>
+                I like baking cakes since i was 15 y.o <br>
+                & started taking baking course since i was 18 y.o <br>
+                I baked high volume of bakery products <br>
+                especially birthday cakes, anniversary cakes, <br>
+                wedding cakes, cakes for events, etc. </p>
+                <p class="Education">
+                <strong>Education </strong>: <br>
+                <br> 
+                - Bruder Junior High School (2016-2019)<br>
+                - Petrus Senior High School (2019-2021)<br>
+                - Baking Course in Maison Bleu Culinary School in Jakarta (2021)<br>
+                </p>
+                <img class="cake-4"src="cake 4.png" alt="cake 4 image"/>
+                <img class="cake-1"src="cake 1.png" alt="cake 1 image"/>
+                <img class="cake-2"src="cake 2.png" alt="cake 2 image"/>
+                <img class="cake-3"src="cake 3.png" alt="cake 3 image"/>
+</div>
+            
+                <div id=p3 class="page-3 page">
+                <div class="skills"><strong>SKILLS</strong></div>
+
+                <h1>Cake Decoration</h1>
+                <img class="cake-decoration-image"src="cake decoration image.png" alt="cake decoration image"/>
+    
+                <h2>Creativity</h2>
+                <img class="creativity-image"src="creativity image.png" alt="creativity image"/>
+              
+                <h3>Unique Design</h3>
+                <img class="unique-design-image"src="unique design image.png" alt="unique design image"/>
+                
+                <h4>Attention To Detail</h4>
+                <img class="attention-to-detail-image"src="attention to detail image.png" alt="attention to detail image"/>
+                
+                </div>
+
+                <div id=p4 class="page-4 page">
+                <div class="projects"><strong>PROJECTS</strong></div>
+
+                <img class="wedding-cake-image"src="wedding cake image.png" alt="wedding cake image"/>
+                <h1>&nbsp Wedding Cake <br> &nbsp&nbsp For <br> &nbsp Wedding Party<br>-with luxury<br>&nbsp diamonds details-</h1>
+
+                <img class="bday-cake-image"src="bday cake image.png" alt="bday cake image"/>
+                <h2>&nbsp Birthday Cake <br> &nbsp&nbsp For <br> &nbsp Sweet17 Party<br>-with Floral<br>&nbsp details-</h2>
+             
+                <img class="replica-cake-image"src="replica cake image.png" alt="replica cake image"/>
+                <h3>&nbsp Replica Cake <br> &nbsp&nbsp For <br> &nbsp Frisian Flag Brand<br>-with real details<br>&nbsp resembling the<br>original products-</h3>
+            </div>
+
+            <div id=p5 class="page-5 page">
+                <div class="contacts"><strong>CONTACTS</strong></div>
+
+                <div class="email"><strong>Email:</strong><br>georgiaaa30@gmail.com </div>
+                <div class="instagram"><strong>Instagram:</strong><br>@geraldinebakery</div>
+                <div class="phone"><strong>Phone:</strong><br>+62895-0866-4575</div>
+                <div class="website"><strong>Website:</strong><br>geraldinebakery.com</div>
+
+                <img class="insta-image"src="instagram image.png" alt="instagram image"/>
+                <h1><strong>Checkout My Instagram For More Projects!</strong></h1>
 </body>
 </html>
